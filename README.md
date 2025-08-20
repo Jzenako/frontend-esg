@@ -18,5 +18,5 @@ An online platform for ESG rating system based on AI
 
 1. 克隆仓库（或直接在仓库目录下运行）
 ```bash
-git clone https://github.com/<你的用户名>/frontend-esg.git
+git clone https://github.com/Jzenako/frontend-esg.git
 cd frontend-esg
