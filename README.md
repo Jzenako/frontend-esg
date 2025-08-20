@@ -20,3 +20,16 @@ An online platform for ESG rating system based on AI
 ```bash
 git clone https://github.com/Jzenako/frontend-esg.git
 cd frontend-esg
+# frontend-esg
+安装依赖
+```bash
+npm install
+本地开发
+
+bash
+npm run dev
+# 打开 http://localhost:5173
+打包
+
+bash
+npm run build
