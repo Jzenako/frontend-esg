@@ -14,8 +14,9 @@ An online platform for ESG rating system based on AI
 
 ---
 
-## 🚀 启动步骤
+### 日志
+8.20 Day 1 
+学习了：如何用 Vite 初始化项目、如何在 GitHub 建仓并 push。
+产出：远程仓库（含 .gitignore、README）、能运行的前端骨架。
+明日计划（Day 2）：安装 react-router-dom、axios，配置基础目录结构（src/components、src/pages…），并写一个能跳转的空页面（Upload / Dashboard）。
 
-### 安装依赖
-```bash
-npm install```
