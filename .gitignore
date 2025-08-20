@@ -5,7 +5,7 @@
 /dist
 /build
 
-# env files
+# env files (本地环境配置，包含敏感信息)
 .env
 .env.*.local
 
