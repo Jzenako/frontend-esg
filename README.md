@@ -16,20 +16,20 @@ An online platform for ESG rating system based on AI
 
 ## 快速启动（开发环境）
 
-1.1）克隆仓库（或直接在仓库目录下运行）
+1.克隆仓库（或直接在仓库目录下运行）
 ```bash
 git clone https://github.com/Jzenako/frontend-esg.git
 cd frontend-esg
 # frontend-esg
-2）安装依赖
+* 安装依赖
 ```bash
 npm install
 
-2.本地开发
+2* 本地开发
 ```bash
 npm run dev
 # 打开 http://localhost:5173
 
-3.打包
+3*打包
 ```bash
 npm run build
