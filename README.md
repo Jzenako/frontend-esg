@@ -24,10 +24,12 @@ cd frontend-esg
 2）安装依赖
 ```bash
 npm install
+
 2.本地开发
-bash
+```bash
 npm run dev
 # 打开 http://localhost:5173
+
 3.打包
-bash
+```bash
 npm run build
