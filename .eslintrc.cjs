@@ -5,18 +5,18 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'prettier'
+    'prettier',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    ecmaFeatures: { jsx: true }
+    ecmaFeatures: { jsx: true },
   },
   settings: {
-    react: { version: 'detect' }
+    react: { version: 'detect' },
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off'
-  }
+    'react/prop-types': 'off',
+  },
 };
