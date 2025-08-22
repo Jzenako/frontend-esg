@@ -14,23 +14,5 @@ ESG 报告上传与可视化平台（Demo-ready）
 
 ---
 
-### 日志
-#### 8.20 Day 1 
-- ##### 学习收获：
-  如何用 Vite 初始化项目、如何在 GitHub 建仓并 push。
-- ##### 产出：
-  远程仓库（含 .gitignore、README）、能运行的前端骨架。
-  
-#### 8.21 Day 2
-##### 学习收获：
-- 掌握了项目根目录执行 npm / git 命令的方法  
-- 理解了 `npm run dev → 浏览器访问 localhost:5173` 的运行流程  
-- 学会了 React Router 的基本用法（`Routes`、`Route`、`Link`）  
 
-#### 产出
-- 成功运行 Vite 默认页面并改成 **Hello ESG 🚀**  
-- 新建 `Home.jsx`、`UploadPage.jsx`、`DashboardPage.jsx` 三个页面  
-- 在 `App.jsx` 中接入导航，可在浏览器中跳转：  
-  - `/` → 首页  
-  - `/upload` → 上传页  
-  - `/dashboard` → 仪表盘页  
+
