@@ -1,6 +1,6 @@
 # frontend-esg
 An online platform for ESG rating system based on AI
-前端：ESG 报告上传与可视化平台（Demo-ready）
+前端：ESG 报告评级与可视化平台（Demo-ready）
 > 本仓库为团队前端代码骨架，目标是在 2025-08-30 前完成可运行的前端平台：支持文件上传、mock API、结果展示面板与基础可视化。
 
 ---
@@ -12,10 +12,5 @@ An online platform for ESG rating system based on AI
 - Dashboard：展示 E / S / G 三项得分与证据列表
 - 图表交互（hover / click）、证据联动、JSON 导出
 
----
 
-## 🚀 启动步骤
 
-### 安装依赖
-```bash
-npm install```
