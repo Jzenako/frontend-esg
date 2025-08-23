@@ -119,5 +119,70 @@ git commit -m "feat: add basic layout with header, footer and page skeletons"
 # 后续需要推送到远程仓库
 ```
 
-**验收结果**：页面样式稳定，可以清晰看到上传区域和仪表板占位区，导航功能正常工作，提交记录清晰明确。
+**验收结果**：页面样式稳定，可以清晰看到上传区域和仪表板占位区，导航功能正常工作，提交记录清晰明确。 
+
+## Day 4（2025-08-23）— 上传组件（前端）实现（本地 mock）
+### 学习内容
+- 掌握了组件拆分原则（容器组件与展示组件）
+- 学会了前端文件校验的实现方法（扩展名、大小限制）
+= 理解了状态管理在文件上传场景中的应用
+- 熟悉了父子组件间的数据传递与事件通信
+
+### 产出成果
+1. 创建了上传组件结构
+text
+src/components/
+  Upload/
+    Upload.jsx          # 主容器组件
+    UploadItem.jsx      # 单个文件项展示组件
+2. 实现了 Upload.jsx 容器组件
+3. 实现了 UploadItem.jsx 展示组件
+4. 功能验收结果:
+
+✅ 选择文件后正确显示文件卡片（含文件名、大小信息）
+
+✅ 错误文件（格式不符或大小超限）会弹出提示且不加入列表
+
+✅ 点击❌按钮可以删除对应文件
+
+✅ 上传按钮点击后生成模拟fileId并弹出提示
+6. 代码提交
+- 创建了功能分支：feature/upload-component
+- 提交信息：feat(upload): add Upload & UploadItem components with local mock flow
+在PR中记录了未来API需求：
+* POST /files: 上传文件接口
+  参数: { name: string, size: number, type: string }
+  返回: { id: number, name: string, size: number, status: string }
+* DELETE /files/:id: 删除文件接口
+## Day 5（2025-08-24）— 搭建 mock API 并联调上传
+### 学习内容
+- 掌握了使用 json-server 搭建模拟后端的方法
+- 学会了使用 axios 发送 HTTP 请求
+- 理解了前后端数据交互的基本流程
+- 实现了完整的上传功能闭环
+### 产出成果
+1. 安装并配置了 json-server
+bash
+npm install -D json-server
+npm install axios
+2. 创建了 mock 数据文件
+3. 修改了 Upload.jsx 实现真实 API 调用
+4. 功能验收结果:
+
+✅ 运行 npm run mock:start 成功启动本地 mock 服务器（端口4000）
+
+✅ 前端上传文件时，db.json 中正确新增文件记录
+
+✅ 文件记录包含完整字段：id（自动递增）、name、size、status
+
+✅ 页面显示上传成功消息，并显示服务器返回的真实 fileId
+
+✅ 多次上传测试，db.json 中的 id 字段正确自动递增
+
+5. 代码提交
+创建了功能分支：feature/mock-server
+提交信息：feat(mock): setup json-server and integrate upload POST
+
+
+
 
