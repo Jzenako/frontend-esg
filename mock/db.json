@@ -1,10 +1,12 @@
 {
   "files": [
     {
-      "id": "a7a9",
+      "id": "b1c7",
       "name": "esg知识图谱.docx",
       "size": 18613,
-      "status": "done"
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "status": "done",
+      "uploadDate": "2025-08-23T11:42:23.767Z"
     }
   ]
 }

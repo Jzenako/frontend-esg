@@ -106,7 +106,7 @@ export default function DashboardPage() {
   return (
     <div style={{ padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
       <h1 style={{ textAlign: "center", marginBottom: "24px" }}>
-        文件列表 Dashboard
+        已上传的文件列表 Dashboard
       </h1>
 
       {/* 刷新按钮 */}
